@@ -1,0 +1,37 @@
+
+==================== FINAL INTERFACE ====================
+2016-04-16 02:17:48.386485 UTC
+
+interface round_FnEiIblqgXXLhoo0euxwfO:DataTypes 7103
+  interface hash: 96d949f0e87d9ec031ab98b6822ab69e
+  ABI hash: aeb962d558623741beb5c21b16538bf3
+  export-list hash: 92ae6e86e02fe17697e68b32c752d4ad
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 962af636f8e927040c7daa9c21457292
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  DataTypes.Case
+  DataTypes.SolvedCase
+module dependencies:
+package dependencies: base-4.8.2.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:GHC.Generics
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+af8baff314f3106068c50e2762f59df6
+  type Case = GHC.Base.String
+08b35a5fc3a149ba5817c3b3c3e13981
+  type SolvedCase = GHC.Base.String
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

@@ -1,0 +1,117 @@
+
+==================== FINAL INTERFACE ====================
+2016-04-16 02:25:32.371594 UTC
+
+interface main@main:Main 7103
+  interface hash: a07bde492d0d518b0213ab426dbbf7dd
+  ABI hash: 0210d06390431cd843238479ed45d75a
+  export-list hash: 2375b9aa1081c90750d375e4a7d1fac0
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 104a6743a8834726bea72cd4ddeec283
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.algorithm
+  Main.caseParser
+  Main.formatCase
+  Main.main
+  Main.makeWord
+module dependencies:
+package dependencies: array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      base-4.8.2.0* binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59 ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      parsec-3.1.9@parse_7aUabKPjr5W6Al5Ge35AQl
+                      round1Aa-0.1.0.0@round_FnEiIblqgXXLhoo0euxwfO
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Exts
+                         base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  parsec-3.1.9@parse_7aUabKPjr5W6Al5Ge35AQl:Text.Parsec.String 3c296b52e129c40cc2a72bba97572ba8
+import  -/  parsec-3.1.9@parse_7aUabKPjr5W6Al5Ge35AQl:Text.ParserCombinators.Parsec fe30d587c0b508789a0c58bc8d5cf015
+import  -/  round1Aa-0.1.0.0@round_FnEiIblqgXXLhoo0euxwfO:Boilerplate 1aa0086b679714c0fbf3010da0a56b50
+import  -/  round1Aa-0.1.0.0@round_FnEiIblqgXXLhoo0euxwfO:DataTypes aeb962d558623741beb5c21b16538bf3
+4cf8de705f38e70c749f1defd46ad7c2
+  algorithm :: DataTypes.Case -> DataTypes.SolvedCase
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (Main.makeWord (GHC.Types.[] @ GHC.Types.Char)) -}
+1ebe34300e29f4454e7ffa7ad2de04a3
+  caseParser :: Text.Parsec.String.Parser DataTypes.Case
+  {- Arity: 5, Strictness: <L,U><L,U><L,U><L,C(C1(C1(U)))><L,C(U)>,
+     Unfolding: InlineRule (0, True, True)
+                (Boilerplate.word1 @ ())
+                  `cast`
+                (Sym (Text.Parsec.Prim.NTCo:ParsecT[0]
+                          <GHC.Base.String>_R
+                          <()>_R
+                          <Data.Functor.Identity.Identity>_R
+                          <[GHC.Types.Char]>_R)) -}
+d1b063733139232c8f070bac4a1ba88c
+  formatCase :: DataTypes.SolvedCase -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                (GHC.Base.id @ GHC.Base.String) -}
+84b4726945d84e270661886c28613bc9
+  main :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+7b71c1ef121bb2a8ad58b2c79a14bda4
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (Boilerplate.makeMain1
+                   @ DataTypes.SolvedCase
+                   Main.algorithm
+                   (Boilerplate.word1 @ ())
+                     `cast`
+                   (Sym (Text.Parsec.Prim.NTCo:ParsecT[0]
+                             <GHC.Base.String>_R
+                             <()>_R
+                             <Data.Functor.Identity.Identity>_R
+                             <[GHC.Types.Char]>_R))
+                   (GHC.Base.id @ GHC.Base.String)) -}
+07584fa88d7a782606ecdf4abefc28c3
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+fb04e9ba8f87190e5030ca9d02f75a8f
+  makeWord :: GHC.Base.String -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

@@ -1,0 +1,7 @@
+This package uses stack to manage the right versions of dependencies.
+Information about stack can be found on: http://docs.haskellstack.org/en/stable/README/
+
+Run the following steps using stack:
+
+stack build
+stack exec gcj-exe <input_file>

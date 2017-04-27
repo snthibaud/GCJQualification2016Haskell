@@ -1,0 +1,40 @@
+
+==================== FINAL INTERFACE ====================
+2016-04-10 00:06:24.060184 UTC
+
+interface gcjqu_CNpVupVDhUL3xmmT0zJifn:DataTypes 7103
+  interface hash: 636d7fb69effbf49aaf2aa78a3ccaf34
+  ABI hash: 4926a6d54850a500067cc12ae490f186
+  export-list hash: fb1875ef76fb0abd8242e2ff4cdeebc2
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 962af636f8e927040c7daa9c21457292
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  DataTypes.Case
+  DataTypes.JamCoin
+  DataTypes.SolvedCase
+module dependencies:
+package dependencies: base-4.8.2.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:GHC.Generics
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  integer-gmp-1.0.0.0:GHC.Integer.Type 371e90fe753f08ddedf0d2657a9ef5c4
+3cdf0cd5a9a7f296f27639755047cbbb
+  type Case = (GHC.Types.Int, GHC.Types.Int)
+97be38f33f095e744398d8a578dc8d37
+  type JamCoin = [GHC.Types.Int]
+8ab8a9c3565f811bf7e10d4397e897f4
+  type SolvedCase = [(DataTypes.JamCoin, [GHC.Integer.Type.Integer])]
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

@@ -1,0 +1,41 @@
+Configuring arithmoi-0.4.1.3...
+Building arithmoi-0.4.1.3...
+Preprocessing library arithmoi-0.4.1.3...
+[ 1 of 34] Compiling Math.NumberTheory.Primes.Sieve.Indexing ( Math/NumberTheory/Primes/Sieve/Indexing.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Sieve/Indexing.o )
+[ 2 of 34] Compiling Math.NumberTheory.Primes.Counting.Approximate ( Math/NumberTheory/Primes/Counting/Approximate.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Counting/Approximate.o )
+[ 3 of 34] Compiling Math.NumberTheory.Lucas ( Math/NumberTheory/Lucas.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Lucas.o )
+[ 4 of 34] Compiling Math.NumberTheory.Primes.Heap ( Math/NumberTheory/Primes/Heap.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Heap.o )
+[ 5 of 34] Compiling Math.NumberTheory.Utils ( Math/NumberTheory/Utils.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Utils.o )
+[ 6 of 34] Compiling Math.NumberTheory.GCD.LowLevel ( Math/NumberTheory/GCD/LowLevel.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/GCD/LowLevel.o )
+[ 7 of 34] Compiling Math.NumberTheory.GCD ( Math/NumberTheory/GCD.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/GCD.o )
+[ 8 of 34] Compiling Math.NumberTheory.Moduli ( Math/NumberTheory/Moduli.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Moduli.o )
+[ 9 of 34] Compiling Math.NumberTheory.Logarithms.Internal ( Math/NumberTheory/Logarithms/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Logarithms/Internal.o )
+[10 of 34] Compiling Math.NumberTheory.Powers.Integer ( Math/NumberTheory/Powers/Integer.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Powers/Integer.o )
+[11 of 34] Compiling Math.NumberTheory.Primes.Factorisation.Utils ( Math/NumberTheory/Primes/Factorisation/Utils.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Factorisation/Utils.o )
+[12 of 34] Compiling Math.NumberTheory.Powers.Squares ( Math/NumberTheory/Powers/Squares.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Powers/Squares.o )
+[13 of 34] Compiling Math.NumberTheory.MoebiusInversion ( Math/NumberTheory/MoebiusInversion.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/MoebiusInversion.o )
+[14 of 34] Compiling Math.NumberTheory.MoebiusInversion.Int ( Math/NumberTheory/MoebiusInversion/Int.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/MoebiusInversion/Int.o )
+[15 of 34] Compiling Math.NumberTheory.Primes.Sieve.Eratosthenes ( Math/NumberTheory/Primes/Sieve/Eratosthenes.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Sieve/Eratosthenes.o )
+[16 of 34] Compiling Math.NumberTheory.Primes.Sieve ( Math/NumberTheory/Primes/Sieve.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Sieve.o )
+[17 of 34] Compiling Math.NumberTheory.Primes.Factorisation.TrialDivision ( Math/NumberTheory/Primes/Factorisation/TrialDivision.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Factorisation/TrialDivision.o )
+[18 of 34] Compiling Math.NumberTheory.Primes.Testing.Probabilistic ( Math/NumberTheory/Primes/Testing/Probabilistic.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Testing/Probabilistic.o )
+[19 of 34] Compiling Math.NumberTheory.Powers.Cubes ( Math/NumberTheory/Powers/Cubes.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Powers/Cubes.o )
+[20 of 34] Compiling Math.NumberTheory.Powers.Fourth ( Math/NumberTheory/Powers/Fourth.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Powers/Fourth.o )
+[21 of 34] Compiling Math.NumberTheory.Logarithms ( Math/NumberTheory/Logarithms.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Logarithms.o )
+[22 of 34] Compiling Math.NumberTheory.Powers.General ( Math/NumberTheory/Powers/General.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Powers/General.o )
+[23 of 34] Compiling Math.NumberTheory.Powers ( Math/NumberTheory/Powers.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Powers.o )
+[24 of 34] Compiling Math.NumberTheory.Primes.Factorisation.Montgomery ( Math/NumberTheory/Primes/Factorisation/Montgomery.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Factorisation/Montgomery.o )
+[25 of 34] Compiling Math.NumberTheory.Primes.Sieve.Misc ( Math/NumberTheory/Primes/Sieve/Misc.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Sieve/Misc.o )
+[26 of 34] Compiling Math.NumberTheory.Primes.Factorisation ( Math/NumberTheory/Primes/Factorisation.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Factorisation.o )
+[27 of 34] Compiling Math.NumberTheory.Primes.Testing.Certificates.Internal ( Math/NumberTheory/Primes/Testing/Certificates/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Testing/Certificates/Internal.o )
+[28 of 34] Compiling Math.NumberTheory.Primes.Factorisation.Certified ( Math/NumberTheory/Primes/Factorisation/Certified.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Factorisation/Certified.o )
+[29 of 34] Compiling Math.NumberTheory.Primes.Testing.Certificates ( Math/NumberTheory/Primes/Testing/Certificates.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Testing/Certificates.o )
+[30 of 34] Compiling Math.NumberTheory.Primes.Testing.Certified ( Math/NumberTheory/Primes/Testing/Certified.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Testing/Certified.o )
+[31 of 34] Compiling Math.NumberTheory.Primes.Testing ( Math/NumberTheory/Primes/Testing.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Testing.o )
+[32 of 34] Compiling Math.NumberTheory.Primes.Counting.Impl ( Math/NumberTheory/Primes/Counting/Impl.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Counting/Impl.o )
+[33 of 34] Compiling Math.NumberTheory.Primes.Counting ( Math/NumberTheory/Primes/Counting.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes/Counting.o )
+[34 of 34] Compiling Math.NumberTheory.Primes ( Math/NumberTheory/Primes.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/Math/NumberTheory/Primes.o )
+In-place registering arithmoi-0.4.1.3...
+Installing library in /home/snthibaud/Development/Projects/Google Code
+Jam/gcj-qualification-round-c/.stack-work/install/x86_64-linux/lts-5.11/7.10.3/lib/x86_64-linux-ghc-7.10.3/arithmoi-0.4.1.3-C4c4JmqdUJaEBNAlRHjNlW
+Registering arithmoi-0.4.1.3...
